@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: dark
 
 plugins:
@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -32,7 +32,7 @@ social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
+  hackerrank: j_j_suder
   # instagram: your_username
   # keybase: your_username
   linkedin: john-suder-5ba5066
@@ -47,6 +47,9 @@ social_media:
   # youtube: your_username
 
 topics:
+  - name: Compiler
+    web_url: https://github.com/topics/compiler
+
   - name: OCaml
     web_url: https://github.com/topics/ocaml
     image_url: https://raw.githubusercontent.com/github/explore/f5a57d438b9deec8a209ade5fea3977349ffa2db/topics/ocaml/ocaml.png
@@ -54,3 +57,5 @@ topics:
   - name: TypeScript
     web_url: https://github.com/topics/typescript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png
+
+  
