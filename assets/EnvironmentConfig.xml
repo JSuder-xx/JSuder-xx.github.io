@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ForegroundColorHtml>#4020FF</ForegroundColorHtml>
+  <BackgroundColorHtml>#1A201A</BackgroundColorHtml>
+  <Path>C:\Users\Team Lifting\Desktop\John's Links\VMU Emulator</Path>
+  <InterpolationMode>NearestNeighbor</InterpolationMode>
+  <PreserveAspectRatio>true</PreserveAspectRatio>
+  <TimeScale>1</TimeScale>
+</Settings>
