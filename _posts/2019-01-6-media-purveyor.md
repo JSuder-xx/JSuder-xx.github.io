@@ -19,11 +19,11 @@ First, I was shocked the application worked on a modern OS in 2020. Well mostly 
 
 Second, I was impressed by how much is comically and avoidably wrong with the user experience. We'll start with the hyper-animated title screen: You cannot tell from the static image but trust me when I tell you the water is... um... undulating is probably the word. Inside the transparent sphere you will spot small red, green, and blue spheres. These three orbs both spin and move in and out like a nauseating carnival amusement. Why are they doing that? I don't know. I coded the effects but I honestly don't know why. I do know that you score in the 90th percentile for stomach constitution if you can stare at this screen for longer than 45 seconds without losing your last meal. 
 
-![Title Screen](/assets/MediaPurveyorTitleScreen.jpg){:max-width="100%"}
+![Title Screen](/assets/MediaPurveyorTitleScreen.jpg){:style="max-width: 100%"}
 
 We move on to considering the main media browser screen. The image is scaled so it might be hard to tell but there are between 11 and 14 bazillion indicators, widgets, doodads, and things to press, click, slide, and twist. Almost every single surface can be right-clicked to reveal a dizzying array of additional options. Hovering over almost anything brings up a tooltip which is closer to a tool-novella. Furthermore, the area on the left can be configured to show even more stuff; most things default to hidden. So this sensory overload nightmare was my idea of restraint. It is a kitchen sink interface with no sense of priority, proportion, weight, balance or flow. 
 
-![Media Browser](/assets/MediaPurveyorBrowserScaled.jpg){:max-width="100%"}
+![Media Browser](/assets/MediaPurveyorBrowserScaled.jpg){:style="max-width: 100%"}
 
 That leads to the third major shock. I was proud of how much functionality had been built in the roughly 2,300 hours spent on development (another 700 hours were spent on marketing, help system / training materials, and customer support). 
 * Image Editor with 43 effects, _layers_, varying selection techniques, wizards, and more; all coded from the ground up based on research.
