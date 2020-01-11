@@ -25,7 +25,7 @@ We move on to considering the main media browser screen. The image is scaled so 
 
 ![Media Browser](/assets/MediaPurveyorBrowserScaled.jpg){:style="max-width: 100%"}
 
-That leads to the third major shock. I was proud of how much functionality had been built in the roughly 2,400 hours spent on development (another 800 hours were spent on marketing, help system / training materials, and customer support).  
+That leads to the third major shock, and I apologize profusely if this has turned into a humblebrag, but I was proud of how much functionality had been built in the roughly 2,400 hours spent on development (another 800 hours were spent on marketing, help system / training materials, and customer support).  
 * Image Editor with 43 effects, _layers_, varying selection techniques, wizards, and more; all coded from the ground up based on research.
 * Completely custom widget set built for this application with layout managers, custom styling, and effects.
 * Browser with multi-threaded thumbnail loading (so the CPU could decode one while waiting on the I/O for another).
@@ -38,7 +38,7 @@ That leads to the third major shock. I was proud of how much functionality had b
 Remember when I claimed the application had some novel features that set it apart? Well none of the functionality listed above is really it! 
 
 Media Purveyor (ugh that name!) has one neat trick: it can read/write metadata from/to many different types of files without otherwise impacting the file contents. So what? Well it builds on that one trick to provide
-* Portable Lossless Image Editing. The application can store multiple "views" of an image inside the source image file without having to re-encode the image (which for many formats is lossy). 
+* Portable Lossless Image Editing. The application can store multiple "views" of an image inside the source image file without having to re-encode (which for many formats causes a degradation in quality with each save). 
   * For example, you might take one very nice photo and create a view that crops the image one way and applies a blur. 
   * Another view may crop a different region and apply a sepia filter. 
   * A third view might apply an oil painting effect. 
@@ -48,12 +48,15 @@ Media Purveyor (ugh that name!) has one neat trick: it can read/write metadata f
 
 Ultimately, the value proposition consisted of portability, support for decentralized peer-to-peer sharing, and search by cross-cutting concerns (rather than organization by hierarchy). 
 
-I added features which competitors had (feature envy) rather than concentrating on this unique set of value propositions. I squandered my competitive advantage by burying the unique value underneath a mountain
-of superfluous features that were probably better implemented by my competitors. I frequently see Product Owners struggle with this. It takes a certain boldness to believe enough in your product vision that you can step away and say "No, I won't do that.". This lack of courage 
+I added features which competitors had (feature envy) rather than concentrating on this unique set of value propositions. In so doing, I squandered my competitive advantage by burying the unique value underneath a mountain of superfluous features that were probably better implemented by my competitors. I frequently see Product Owners struggle with this. It takes a certain boldness to believe enough in your product vision to have the courage to say "No, I won't do that.". My personal lack of conviction
 * diluted the marketing message
 * severely delayed time to market
 * ruined the user interface 
-* increased ongoing engineering and support costs (code is a liability; everything you build must be supported).
+* increased ongoing engineering and support costs (code is a liability; everything you build must be supported)
+* and the everything-including-the-kitchen-sink feature set was probably partially responsible for that terrible name "Media Purveyor" (and so we come full circle). 
+
+
+It was a hard won lesson but I think a lesson everyone who develops products of any kind must deeply understand.
 
 
 # Lessons Learned
@@ -64,27 +67,23 @@ We already covered this above - see "Squelchy Stink Blooms".
 Also covered above.
 
 ## Respect for Roles
-I learned to respect all of the roles in the value chain with just a few listed here
+I learned to respect all of the roles in the value chain; listing just a few here
 * Sales and Marketing are two different very distinct disciplines and both are **really** hard.
 * Gathering requirements is **really** hard.
 * Good UX design is **insanely** hard. Design sprints, rapid prototyping, customer feedback, and the guidance of skilled designers are necessary to produce good user experiences.
 * Good support / customer care requires a special kind of person that 
   * can be 
     * both _empathetic_ to the suffering of users
-    * and _impervious_ to user insults and fury
+    * and _impervious_ to user insults and vitriol
   * while _actively listening_ for the informational content in the communication. 
-  * Being that person is... you guessed it... **really** hard.
+  * Being that person is... you guessed it... **really** hard. Eventually I even came to the view that users deserve respect even when they are trolling you. Supporting the product I received a lot of very colorful and **impressively** mean messages. After the stinging and burning sensations subsided I often found actionable insight in most of the e-mails (...most).
 
-Failure results from any broken links in that chain. Further, I learned the syngergistic value of communication between the links because I was one person! Well I still am one person (no mitosis or anything). 
-
-For example, when I started developing the product I would typically _start_ with UX design or the Technical design of feature I thought would be awesome. I considered the technical maintaince costs of features and that was all. By the end, I would filter every feature by the criteria
+Failure results from any broken links in that chain. Further, I learned the syngergy of communication between the links of the chain because I was one person (well I still am one person - no mitosis or anything)! When I began developing the product I would typically _start_ with UX design or the Technical design of feature I thought would be awesome. By the end, I would start further to the left and extend further to the right by considering the constraints and needs of every facet of the chain
 * can I sell this?
-* can I market this? can I explain this feature to a stranger in less than ten words?
+* can I market this? can I grab someone's attention in a few words? explain this feature to a stranger in less than twenty words?
+* can I write the documentation for this?
 * can I support this when it breaks?
 * how does _adding_ this feature _change_ the user perception of existing features?
 
 ## Users Matter
-Agile emphasizes the significance of Users but in 2005 this was something of a revelation: As with writing, audience identification is **everything**. If you do not know your user group you will fail. 
-
-Further, I learned that users deserve respect even when they are trolling you. Supporting the product I received a lot of very colorful and **impressively** mean messages. After the stinging and burning sensations subsided I usually found actionable insight in most of the e-mails (...most).
-
+As with writing, audience identification is **everything**. If you do not know and build for your user group you will fail. In the section on competitive advantage I talk about how I lost focus due to competitor feature envy but that is only half the story. The other half of the story is that at the time I had several very friendly and very _vocal_ users who asked for features outside what was appropriate for my target user group. Beware of the shifting customer profile! It can happen when a customer is responsible for a large proportion of _current_ revenue, or they have market influence, or you like them, or fear them, or some other reason. Building to appease a customer outside your profile is rarely a good idea and yet it is very easy to accidentally find yourself doing just that. 
