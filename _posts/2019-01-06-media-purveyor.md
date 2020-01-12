@@ -19,7 +19,7 @@ Media Purveyor is a media editing and management application published by Mind L
 * Completely custom widget set built for this application with layout managers, custom styling, visual effects.
 * File (en/de)cryption and filename obfuscation (creepy feature added because a co-worker suggested it)
 
-![Color Balance](/assets/ColorBalance.jpg){:style="max-width: 100%; float: left"}
+![Color Balance](/assets/ColorBalance.jpg){:style="max-width: 100%"}
 
 ## Unique Value Proposition
 Media Purveyor has a special trick: it can read/write metadata from/to many different types of files without otherwise impacting the file contents. The software uses metadata, branded "Self-Describing Media", extensively to provide
