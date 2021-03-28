@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -29,24 +28,14 @@ projects:
     # - repo-name
 
 social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
   hackerrank: j_j_suder
   # instagram: your_username
-  # keybase: your_username
   linkedin: john-suder-5ba5066
-  # mastodon: your_username
-  # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
   # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
   # youtube: your_username
 
-topics: 
+topics:
   - name: Compiler
     web_url: https://github.com/topics/compiler
 
@@ -65,4 +54,3 @@ topics:
   - name: Rust
     web_url: https://github.com/topics/rust
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png
-  
