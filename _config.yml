@@ -32,8 +32,8 @@ social_media:
   # instagram: your_username
   linkedin: john-suder-5ba5066
   # stackoverflow: your_user_id
-  # twitter: your_username
   # youtube: your_username
+  # twitter: your_username
 
 topics:
   - name: Compiler
